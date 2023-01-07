@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val tutorialDoc = Firebase.firestore.collection("coroutines").document("tutorial")
         val peter = Person("Peter", 25)
+        // Launch coroutine
         GlobalScope.launch(Dispatchers.IO) {
             delay(3000L)
             tutorialDoc.set(peter).await()
@@ -33,6 +34,7 @@ class MainActivity : AppCompatActivity() {
             withContext(Dispatchers.Main){
                 binding.tvData.text = person.toString()
             }
+
         }
 
     }
