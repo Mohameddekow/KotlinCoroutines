@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Kotlin coroutines</string>
+    <string name="second_activity">SECOND ACTIVITY</string>
 </resources>
