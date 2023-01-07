@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178254653935",
+    "project_id": "kotlin-coroutines-f6fc3",
+    "storage_bucket": "kotlin-coroutines-f6fc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178254653935:android:50bec6ee1ca3ae0c20ae1a",
+        "android_client_info": {
+          "package_name": "com.example.kotlincoroutines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178254653935-s1n38k0hfthut1b9rl624k9nmtlhab4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKcFtpKwLS6vPwQ5Kp-X58wmSYX7Pa514"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178254653935-s1n38k0hfthut1b9rl624k9nmtlhab4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
